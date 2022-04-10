@@ -70,7 +70,7 @@ class RouteGenerator {
             Container(
               margin: EdgeInsets.all(15),
               child: Text(
-                'Oops something went wrong\nThe page you are looknig for maybe have been removed or unavailable',
+                'error 404\nOops something went wrong',
                 textAlign: TextAlign.center,
               ),
             ),
