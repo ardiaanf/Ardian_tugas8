@@ -28,6 +28,14 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
+                margin: EdgeInsets.all(15),
+                child: Text(
+                  'Welcome To My Page',
+                  style: TextStyle(fontSize: 20),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              Container(
                 padding: EdgeInsets.only(bottom: 30),
                 width: MediaQuery.of(context).size.width * 0.4,
                 // height: MediaQuery.of(context).size.height * 0.4,
