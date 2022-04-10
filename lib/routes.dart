@@ -45,8 +45,8 @@ class RouteGenerator {
           flexibleSpace: Container(
             decoration: BoxDecoration(
                 gradient: LinearGradient(colors: [
-              Color.fromARGB(255, 255, 128, 177),
-              Color.fromARGB(255, 147, 152, 255)
+              Colors.amberAccent,
+              Colors.orangeAccent
             ], begin: Alignment.topLeft, end: Alignment.bottomCenter)),
           ),
           title: Text(
